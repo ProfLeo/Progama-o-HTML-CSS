@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>História do Brasil Prof Leo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #87CEEB;
         }
 
         header {
@@ -17,6 +18,7 @@
             color: #fff;
             padding: 20px;
             text-align: center;
+            font-family: 'Pacifico', cursive; /* Aplica a fonte Pacifico */
         }
 
         nav {
@@ -41,30 +43,36 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin-top: 20px;
+        h1, h2 {
+            font-family: 'Pacifico', cursive; /* Aplica a fonte Pacifico */
+            font-weight: bold;
         }
 
         p {
             font-size: 18px;
             line-height: 1.6;
+            text-align: justify;
         }
 
         a {
-            color: #007BFF;
+            color: #FF0000;
             text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
+        }
+
+        .imagem-canto-superior-direito,
+        .imagem-canto-inferior-direito {
+            display: block;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -88,10 +96,9 @@
         <section id="sobre">
             <h2>Sobre o Site</h2>
             <p>Bem-vindo ao meu site de História do Brasil. Aqui, você encontrará informações sobre os diversos períodos, personagens e eventos que contribuíram para a formação do país.</p>
-        <p>Aqui também serão feitas reflexões sobre o fazer Histórico, e a praxis historiográfica</p>
-        <p>Sobre o autor: Possui Graduação e pós graduação 
-            em História pela UEM com enfâse em História intelectual Brasileira.</p>
-        <p>As analises realizadas aqui serão em essência vistas através do angulo do Marxismo moderno e do materialismo histórico.</p>
+            <p>Aqui também serão feitas reflexões sobre o fazer Histórico, e a praxis historiográfica</p>
+            <p>Sobre o autor: Possui Graduação e pós graduação em História pela UEM com enfâse em História intelectual Brasileira.</p>
+            <p>As análises realizadas aqui serão em essência vistas através do ângulo do Marxismo moderno e do materialismo histórico.</p>
         </section>
         
         <section id="periodos">
@@ -114,7 +121,7 @@
                     <a href="https://pt.wikipedia.org/wiki/Industrializa%C3%A7%C3%A3o_do_Brasil" target="_blank">Período Industrial</a> - O processo de industrialização do Brasil.
                 </li>
             </ul>
-            
+        </section>
         
         <section id="personagens">
             <h2>Personagens Históricos</h2>
@@ -132,8 +139,6 @@
         </section>    
         <!-- Espaço para a imagem no canto direito inferior -->
         <img src="download.jpeg" alt="Imagem 2" class="imagem-canto-inferior-direito">
-    </body>
-    </html>
     </div>
 </body>
 </html>
