@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do Prof Leo</title>
+    <link rel="stylesheet" href="style.css"> <!-- Este é o link para o arquivo CSS -->
+</head>
+</head>
+<body>
+    <header>
+        <h1>História do Brasil Prof Leo</h1>
+        <p>Explorando as raízes e os eventos que moldaram o Brasil.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#periodos">Períodos</a></li>
+            <li><a href="#personagens">Personagens</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre o Site</h2>
+            <p>Bem-vindo ao meu site de História do Brasil. Aqui, você encontrará informações sobre os diversos períodos, personagens e eventos que contribuíram para a formação do país.</p>
+            <p>Aqui também serão feitas reflexões sobre o fazer Histórico, e a praxis historiográfica</p>
+            <p>Sobre o autor: Possui Graduação e pós graduação em História pela UEM com enfâse em História intelectual Brasileira.</p>
+            <p>As análises realizadas aqui serão em essência vistas através do ângulo do Marxismo moderno e do materialismo histórico.</p>
+        </section>
+        
+        <section id="periodos">
+            <h2>Períodos Históricos</h2>
+            <img src="download (1).jpeg" alt="Imagem 1" class="imagem-canto-superior-direito">
+
+            <p>Explore os diferentes períodos da história do Brasil e seus ciclos econômicos:</p>
+            
+            <h2>Caio Prado Júnior</h2>
+            <img src="images.jpeg" alt="imagem-canto-inferior-direito">
+            <p> O primeiro autor a ser discutido aqui, será Caio Prado Júnior, um renomado historiador brasileiro que contribuiu significativamente para nossa compreensão da formação do Brasil contemporâneo. Prado Júnior, em suas obras, destacou a importância dos aspectos econômicos e sociais na construção da nação brasileira.</p>
+            <p>Sua visão crítica e sua análise baseada no marxismo moderno e no materialismo histórico nos fornecem insights valiosos sobre os eventos que moldaram o Brasil ao longo do tempo. Exploraremos essas perspectivas ao longo deste site, enquanto examinamos os períodos, personagens e eventos que compõem nossa história.</p>
+            
+            <ol>
+                <li>
+                    <a href="https://pt.wikipedia.org/wiki/Per%C3%ADodo_colonial_do_Brasil" target="_blank">Período Colonial</a> - O início da colonização e a exploração do pau-brasil.
+                </li>
+                <li>
+                    <a href="https://pt.wikipedia.org/wiki/Ciclo_do_ouro" target="_blank">Ciclo do Ouro</a> - A descoberta de ouro em Minas Gerais e as riquezas geradas.
+                </li>
+                <li>
+                    <a href="https://pt.wikipedia.org/wiki/Ciclo_do_caf%C3%A9" target="_blank">Ciclo do Café</a> - O café como principal produto de exportação.
+                </li>
+                <li>
+                    <a href="https://pt.wikipedia.org/wiki/Industrializa%C3%A7%C3%A3o_do_Brasil" target="_blank">Período Industrial</a> - O processo de industrialização do Brasil.
+                </li>
+            </ol>
+        </section>
+        
+        <!-- ... Restante do seu conteúdo ... -->
+    </div>
+</body>
+</html>
